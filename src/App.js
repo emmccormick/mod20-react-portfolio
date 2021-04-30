@@ -1,11 +1,20 @@
 import React from 'react';
-import About from './components/About'
+import About from './components/About';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div>
-        <h1>Emily Rucka Portfolio</h1>
+      <header>
+        <Nav />
+      </header>
+      <main>
         <About />
+      </main>
+      <footer>
+
+      </footer>
+        
     </div>
   );
 }
