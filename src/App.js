@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
+import ContactForm from './components/Contact';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Nav />
       </header>
       <main>
+        <ContactForm></ContactForm>
         <About />
       </main>
       <footer>
