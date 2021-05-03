@@ -1,10 +1,13 @@
 import React from 'react';
+import resumeDoc from "../../assets/Resume.pdf"
 
 function Resume() {
     return (
         <section>
             <h1 id="resume">Resume</h1>
-            <p>click here for a copy of my resume (or upload a pic?)</p>
+            <p>click the link below for my resume</p> 
+            <a href={resumeDoc} target="_blank">Resume</a>
+            
         </section>
     )
 }
